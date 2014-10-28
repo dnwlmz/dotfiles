@@ -15,7 +15,7 @@ docker run -d --name=nzbdrone -v /mnt/storage/appdata/nzbdrone:/config -v /mnt/s
 ##
 # SABnzbd+
 ##
-docker run -d -p 27020:8080 --name=sabnzbd -v /mnt/storage/appdata/sabnzbd:/config -v /mnt/storage:/mnt/storage  -v /etc/localtime:/etc/localtime:ro binhex/arch-sabnzbd
+# docker run -d -p 27020:8080 --name=sabnzbd -v /mnt/storage/appdata/sabnzbd:/config -v /mnt/storage:/mnt/storage  -v /etc/localtime:/etc/localtime:ro binhex/arch-sabnzbd
 
 ##
 # CouchPotato
